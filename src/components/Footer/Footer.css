@@ -1,0 +1,15 @@
+.footer_container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 3, 3);
+  gap: 0rem;
+  line-height: 0.1;
+}
+
+.footer_container p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

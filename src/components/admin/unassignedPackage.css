@@ -1,0 +1,86 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    
+    
+  }
+  
+  /* Increase the font size and padding for table cells */
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  /* Add a gradient background for table headers */
+  th {
+    background: linear-gradient(45deg, #4CAF50, #00796B);
+    color: #fff;
+  }
+  
+  /* Add a hover effect for table rows */
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Update the form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  
+  /* Use a sans-serif font for labels and increase the font weight */
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Add a box-shadow to select inputs and increase the font size */
+  select {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+  /* Add a box-shadow to buttons and increase the font size */
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+  /* Add a hover effect to buttons */
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Update the input styles */
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  

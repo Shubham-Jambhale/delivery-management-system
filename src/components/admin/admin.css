@@ -1,0 +1,84 @@
+.containerdrr {
+  /* margin: 30px; */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left:100px ;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left:100px ;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 110%;
+  margin-left:100px ;
+}
+
+.card.assigned {
+  background-color: #f2f2f2;
+}
+
+.card.to-be-picked {
+  background-color: #ffe6cc;
+}
+
+.card.delivered {
+  background-color: #d9ead3;
+}
+
+.card.tracking {
+  background-color: #c9daf8;
+}
+
+.card.createuser {
+  background-color: #c9daf8;
+  width: 220px;
+
+}
+.card.createuser {
+  background-color: #d7c7e9;
+  
+  text-align: center;
+}
+.card.driver {
+
+  text-align: center;
+  background-color: #ecb976;
+  width: 220px;
+  /* margin-right: 300px; */
+}
+
+.card.driver .dropdown-toggle {
+  background-color: #006699;
+  color: #ffffff;
+  border: none;
+}
+
+.card.driver .dropdown-menu {
+  background-color: #dcea41;
+  border: none;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.small-button {
+  margin-top: 10px;
+}
+
+.highlight {
+  color: #ff0000;
+  font-weight: bold;
+}

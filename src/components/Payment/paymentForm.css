@@ -1,0 +1,67 @@
+.container_payment {
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../resources/Delivery4.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  color: rgb(28, 26, 26);
+  margin-top: 4.5rem;
+  width: 100%;
+}
+
+.payment_form {
+  width: 50rem; /* Adjust width as needed */
+  margin-top: 2rem; /* Adjust margin as needed */
+  /* align-items: center; */
+}
+
+.FormGroup {
+  margin: 0 15px 20px;
+  padding: 0;
+  border-style: none;
+  background-color: #7795f8;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #829fff;
+  border-radius: 4px;
+}
+
+.FormRow {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  border-top: 1px solid #819efc;
+  padding-top: 10px; /* Add padding as needed */
+  padding-bottom: 10px; /* Add padding as needed */
+  justify-content: space-between;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  flex: 1;
+  width: 100;
+  padding: 11px 15px 11px 0;
+  color: #fff;
+  font-weight: 500;
+  font-family: Roboto, Open Sans, Segoe UI, sans-serif;
+  font-size: 16px;
+}
+
+.payment_form button[type="submit"] {
+  background-color: #4caf50; /* Update to desired green color */
+  color: #fff;
+  font-size: 14px; /* Update to desired font size */
+  padding: 10px 15px; /* Update padding as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem; /* Add margin as needed */
+  width: 20%;
+  align-self: center;
+}

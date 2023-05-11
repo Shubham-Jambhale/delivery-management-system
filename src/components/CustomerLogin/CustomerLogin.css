@@ -1,0 +1,269 @@
+.b_container_customer {
+  min-height: 155vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../resources/Delivery4.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  color: rgb(28, 26, 26);
+}
+.username_display {
+  margin-top: 5rem;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--color-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+.header_cust {
+  /* margin-top: 5rem; */
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+}
+
+.form-group label {
+  margin-top: 0.5rem;
+  font-size: 20px;
+}
+
+.form-group input {
+  margin-top: 0.5rem;
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  /* margin-bottom: 31px; */
+  transition: all 250ms ease-in-out;
+  color: #181717;
+}
+
+.form-group select {
+  margin-top: 0.5rem;
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  /* margin-bottom: 31px; */
+  transition: all 250ms ease-in-out;
+  color: #181717;
+}
+
+.subscript-r {
+  display: inline;
+  width: 300px;
+  font-size: 13px;
+  text-align: right;
+}
+.subscript-c {
+  margin-top: 0.2 rem;
+  display: inline;
+  width: 300px;
+  font-size: 13px;
+  text-align: center;
+}
+.input-login :focus {
+  outline: none;
+  box-shadow: 12px 12px 12px 1px #0e81ce96;
+}
+.footer {
+  display: -webkit-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+.validation_box {
+  width: 300px;
+  text-align: center;
+}
+.footerlogin_custlogin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 2rem; */
+  justify-content: space-evenly;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.login_btn_cust {
+  display: flex;
+  align-items: center;
+  background-color: --var(color-primary-variant);
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 6px 12px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.under-line {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.login-form_cust {
+  /* Form row styles */
+  display: flex;
+  justify-content: center; /* Center align the items horizontally */
+  align-items: center;
+}
+
+.footerlogin {
+  /* Footer login styles */
+  flex: 1; /* Fill up the remaining space */
+  text-align: center; /* Center align the button */
+}
+
+.shippo_rates_customer {
+  font-size: 1.2rem;
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+  color: black;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.shippo_rates_customer .h2 {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+.shippo_rates_customer .rate-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.shippo_rates_customer .rate-item {
+  margin-bottom: 0.5rem;
+  color: #000;
+  font-size: 16px;
+}
+.shippo_rates_customer .rate-container_customer {
+  border-radius: 0.5rem;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  max-height: 300px; /* Change max height to accommodate 5 rows */
+  overflow-y: auto;
+}
+
+.shippo_rates_customer .rate-container_customer .rate-table_customer {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  border-radius: 1.5rem !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+.shippo_rates_customer .rate-container_customer .rate-table_customer tr:hover {
+  background-color: #f9f9f9;
+}
+.shippo_rates_customer .rate-container_customer .rate-table_customer th,
+.shippo_rates_customer .rate-container_customer .rate-table_customer td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+}
+.shippo_rates_customer .rate-container_customer .rate-table_customer th {
+  background-color: #0d6efd; /* Set background color for header row */
+  color: white;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.shippo_rates_customer
+  .rate-container_customer
+  .rate-table_customer
+  tr:first-child
+  td {
+  background-color: #f0f0f0; /* Set background color for first row */
+}
+
+.shippo_rates_customer
+  .rate-container_customer
+  .rate-table_customer
+  tr:nth-child(even)
+  td {
+  background-color: #ffffff; /* Set background color for even rows */
+}
+
+.shippo_rates_customer
+  .rate-container_customer
+  .rate-table_customer
+  tr:nth-child(odd)
+  td {
+  background-color: #f2f8ff; /* Set background color for odd rows */
+}
+.shippo_rates_customer .rate-container_customer .scroll-option_customer {
+  margin-top: 10px;
+  color: #999;
+}
+.after-rates_cust {
+  display: flex;
+  justify-content: center; /* Center align the items horizontally */
+  align-items: center;
+}
+.after_rates_footerlogin_custlogin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.after_rates_login_btn_cust {
+  display: flex;
+  align-items: center;
+  background-color: --var(color-primary-variant);
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 6px 12px;
+  margin-right: 10px;
+  text-align: center;
+}
